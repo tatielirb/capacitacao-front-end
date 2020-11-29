@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Titulo da pagina html</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script>      
+    
+      // string, é tudo que vai entre aspas simples ou dupla;
+      console.log('Oi eu sou uma string');
+
+      // variaveis com string
+      var nome = "Tatieli";
+      var nomeProduto = 'Nescau';
+
+      //concatenação 
+       console.log('Meu nome é ' + nome);
+       console.log('O nome do produto é ' + nomeProduto);
+
+       // variaveis com numeros (number)
+       var idade = 32;
+       var preco = 20.00
+
+       // contatenação
+       console.log('Minha idade é ' + idade)
+       console.log('O preço é ' + preco);
+
+       // soma
+       var valor1 = 20;
+       var valor2 = 30;
+
+       var resultado = valor1 + valor2;
+       console.log('o valor da soma é ' + resultado);
+       // concatenação  sem parenteses soma 
+       console.log('o valor da soma é ' + valor1 + valor2);
+       // com parenteses é a soma
+       console.log('o valor da soma é ' + (valor1 + valor2));
+
+
+       // multiplicação
+       var resultado = valor1 * valor2;
+       console.log('o valor da multiplicação é ' + resultado);       
+       console.log('o valor da multiplicação é ' + valor1 * valor2);
+       // com parenteses é a multiplicação
+       console.log('o valor da multiplicação é ' + (valor1 * valor2));
+      
+       // divisão
+       var resultado = valor1 / valor2;
+       console.log('o valor da divisão é ' + resultado);       
+       console.log('o valor da divisão é ' + valor1 / valor2);
+       // com parenteses é a divisão
+       console.log('o valor da divisão é ' + (valor1 / valor2));
+
+       //subtração
+       var resultado = valor1 - valor2;
+       console.log('o valor da subtração é ' + resultado);      
+       //  se não utilizar os paranteses ele entende que é um caracter de separação e o resutado fica NaN
+       console.log('o valor da subtração é ' + valor1 - valor2);
+       // com parenteses é a subtração
+       console.log('o valor da subtração é ' + (valor1 - valor2));
+
+       //modulo  = resto da divisão , 0 ou 1
+       var valor3 = 7;
+       var valor4 = 3;
+       var resultado1 = valor3 % valor4;
+       console.log('o resto da divisão é entre ' + valor3 + ' e ' + valor4 + ' é ' + resultado1);  
+
+       var valor5 = 9;
+       var valor6 = 3;
+       var resultado2 = valor5 % valor6;
+       console.log('o resto da divisão é entre ' + valor5 + ' e ' + valor6 + ' é ' + resultado2)
+
+       //Ordem dos calculos seguem a mesma ordem da regra matematica
+      // https://www.matematica.pt/faq/operacoes-matematicas.php 
+
+      var valor1 = 10;
+      var valor2 = 20;
+      var valor3 = 3;
+      console.log('o valor da operação ' + ((valor1 + valor2) / valor3));
+      console.log('o valor da operação ' + ((valor1 + valor2) * valor3));
+      console.log('o valor da operação ' + ((valor1 * valor2) / valor3));
+      console.log('o valor da operação ' + ((valor1 * valor2) - valor3));
+
+     // potenciação 
+      var valor = 2 * 2 // 2 ao quadrado
+      var valor1 = 2 *2 * 2
+      console.log('o valor da operação potenciação quadrado de 2' + valor);
+      console.log('o valor da operação potenciação cubica de 2 ' + valor1);
+
+      //raiz 
+      var valor3 = 8 * (1/2)
+      console.log('o valor da operação raiz quadrada de 8 é ' + valor3);
+      //https://locomotivatech.com/2019/12/16/como-fazer-potenciacao-e-radiciacao-em-javascript/
+
+    </script>
+  </body>
+</html>
