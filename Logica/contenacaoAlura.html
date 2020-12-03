@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Concatenações simples</title>
+  <meta charset="utf-8" />
+  <input />
+  <button>Cliclk me here!</button>
+</head>
+
+<body>
+  <script>
+    // forma de criar nome de arquivos
+    //olaEuSouUmArquivo.html
+    //ola_eu_sou_um_arquivo.html
+    //ola-eu-sou-um-arquivo.html
+    
+    function byeBye() {
+      //nome de função não pode conter espaços nem acentuação
+      alert("bye bye")
+
+    }
+    var button = document.querySelector("button");
+    button.onclick = byeBye()
+
+    //Aprendendo Strings e como concatenar com elas. é tudo aquilo que vai com aspas simples ou duplas;
+    console.log('Somos o melhor que podemos.somos todos um');
+
+    //Variáveis com Strings  
+    var nome = "Fah";
+    var casaSolar = "Aquário";
+
+    //Concatenação
+    console.log('meu nome é ' + nome);
+    console.log('Seu signo solar é ' + casaSolar);
+
+    // Variáveis com números (number)
+    var idade = 35;
+    //nome de variaveis não pode conter espaços nem acentuação
+    var mesDeAniversario = 02;
+    var diaDoMes = 11;
+
+    //concatenação
+    console.log('Idade da Fah é ' + idade);
+    console.log('Fevereiro como mes é ' + mesDeAniversario);
+    console.log('Nascide no dia ' + diaDoMes);
+
+    // soma
+    var diaDoMes = 11;
+    var mesDoAno = 02;
+    var anoDoSeculo = 1985;
+    var calculoDodiaMaisMês = 4
+    var calculoDoAno = 5
+    var diaMaisAnoMaisMes = 9;
+
+    var Resultado = diaDoMes + MêsDeAniversário + anoDoSeculo;
+    console.log('o dia do Mês dá ' + diaDoMes);
+    console.log('o dia do mês mais o mês do ano dá ' + (diaDoMes + mesDoAno));
+    console.log('a soma do dia do mês. O mês do ano com o ano do século dá ' + (diaDoMes + mesDoAno + anoDoSeculo));
+    console.log('a concatenação de seu número astrológico final é  ' + diaMaisAnoMaisMes);
+
+    // Divisão
+    var age = 35;
+    var dob = 1985;
+    var lifetimeleftInHours = 113.01763224;
+
+    // concatenação 
+    console.log('Aqui iremos dividir idade e ano de nascimento ' + (age / dob));
+
+    // Subtraction e divisão
+    var lifetimeleft = 113.017623224;
+    var dob = 1985;
+    var result = 1871.982377;
+    var age = 35;
+
+    // concatenação
+    console.log('Aqui iremos subtrair o tempo restante de vida pelo ano de nascimento ' + (lifetimeleftInHours - dob));
+    console.log('Aqui vamos agora dividir o resultado pela idade ' + (result / Age));
+
+    // Division Module = Divisions leftovers , 0 or 1
+    var value1 = 7;
+    var value2 = 5;
+    var result = value1 % value2
+    console.log('O resto da divisão entre 7 e 5 é entre ' + value1 + ' e ' + value2 + ' e ' + result);
+
+    // Maths ordinace
+    //htps:matematica.pt/faq/operacoes-matematicas.php
+    // estudar mais os restos da divisão
+
+    // MDC 
+    var value1 = 25;
+    var value2 = 45;
+    var value3 = 50;
+    var value4 = 14;
+    var value5 = 2;
+    var result = 625;
+    console.log('valor1 multiplicado por valor valor3 e dividido por valor5 ' + (value1 * value3 / value5));
+    console.log('Valor do resultado dividido por valor3 é ' + (result / value3));
+
+    // Pontencialização
+    var value1 = 2 * 2 //ao quadrado
+    console.log('O quadrado de 2 é ' + value1);
+    var value2 = 8 * 3
+    console.log(' A potencia cúbica de 8 é ' + value2);
+    var value3 = 25 * 5 // quinta potência
+    console.log('A quíntupla potência de 25 é ' + value3);
+
+    var weightShai = 75;
+    var heightShai = 1.73 * 2;
+    console.log('Peso da Shay do Educatransforma é ' + weightShai / heightShai);
+
+    //IMC
+    var weight = 80;
+    var height = 1.61 * 2;
+    console.log('O meu IMC é ' + weight / height);
+
+    // Raízes
+    var value1 = 16 * (1 / 2);
+    console.log('A raíz quadrada de 16 é ' + value1);
+    var value2 = 28 * (1 / 2);
+    console.log('a raíz quadrada de 28 é ' + value2);
+    var value3 = 145 * (1 / 3);
+    console.log('A raíz cúbica de 145 é ' + value3);
+    var value4 = 145 * (1 / 5);
+    console.log('Aqui vemos uma raíz quíntupla do mesmo número acima que é ' + value4);
+
+    (function hello() {
+      return 'hey there';
+    }())
+
+    // aqui executo uma função com retorno
+    console.log('Aqui começo a ver uma função invocando outra função dentro da mesma)')
+
+    alert("Obrigada Shay e Jean pela força hoje na resolução do repositório")
+
+
+  </script>
+</body>
+
+</html>
